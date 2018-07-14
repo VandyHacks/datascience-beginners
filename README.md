@@ -2,6 +2,8 @@
 *For the hackers at VandyHacks 2018*
 
 # Preface 
+This guide is to help you get set up with a popular environment for data science in Python and to introduce some next steps.
+
 Doing data science is a little different than traditional dev work because it is meant to be **interactive** and **deliberate**. Working on a visual environment like Jupyter Notebooks will really help you do the most with your data. Notebooks consist of cells which can show Markdown or Python. This lets you execute code incrementally, as opposed to running an Python file from start-to-finish. This is very useful for making small changes and making progress. 
 
 ### Helpful Links 
@@ -37,7 +39,7 @@ Note that a locally installed environment is faster than the Azure Notebooks, bu
 	You can make a new notebook by going to the top right **New** -> **Python 3**
 
 ## More options
-Look for guides on setting up Jupyter on a GCP Compute Engine or AWS EC2 if you need *a lot* of computing resources. 
+Look for guides on setting up Jupyter on a GCP Compute Engine or AWS EC2 if you need *a lot* of computing resources. Also, look into GCP BigQuery if your data is quite large for a single machine (10s of gigabytes). 
 
 # Part 1a. Using a notebook 
 - A notebook is made of **cells**. Run a cell with `Ctrl + Enter`. 
@@ -51,15 +53,29 @@ Jupyter has 2 main modes: *Command* and *Edit*.
 - **Remember to save your notebooks before shutting down the server!** You can see if your notebook is saved in the console running Jupyter. `Ctrl + C` to close Jupyter. 
 
 # Part 2. Data 
-- Introduce some fun dataset and basic I/O
+This section refers to another Notebook showcasing how some basic data handling is done. 
 
-# Part 3. Visualizations and Insights
-- How to learn about the data (i.e descriptive stats)
-- Some basic viz
+This Medium Article is a nice overview of the steps from loading your data to making some basic plots: https://medium.com/@harrypotter0/an-introduction-to-data-analysis-with-pandas-27ecbce2853
 
-# Part 4. ML and more 
-- Easy ml 
-- More ideas for a project using data
+### Helpful Links 
+
+1. 10 Minutes to pandas - https://pandas.pydata.org/pandas-docs/stable/10min.html 
+2. Kaggle datasets (Lots of clean data on many topics) - https://www.kaggle.com/datasets
+3. AI/ML services:
+	a. Azure ML Studio - https://studio.azureml.net/
+	b. IBM Watson - https://www.ibm.com/watson/developer/
+4. Pandas cheatsheet - https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf 
+
+
+The main steps to actually doing something on Jupyter look something like this:
+
+1. **Load your data and process it**. Start with importing your packages and making sure you can see your data. If importing a package yields an error (ex. "package not found"), open up another terminal and install it with `pip` or `conda`. 
+
+2. **Make some graphs**. Matplotlib is a full visualization suite and can be complemented with `seaborns`. Feel free to use `plt.plot`, `plt.hist`, `plt.bar`, etc. 
+
+3. **Get some insights**. Think of 2-3 nontrivial questions you want answers. Work out the steps needed to be taken and extract answers from your data. Usually this will involve a lot of filtering, cleaning, plots, etc. In this stage, StackExchange and Google are your main consultants. 
+
+
 
 
 
