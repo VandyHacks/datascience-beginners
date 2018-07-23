@@ -55,7 +55,9 @@ Jupyter has 2 main modes: *Command* and *Edit*.
 # Part 2. Data 
 This section refers to another Notebook showcasing how some basic data handling is done. 
 
-This Medium Article is a nice overview of the steps from loading your data to making some basic plots: https://medium.com/@harrypotter0/an-introduction-to-data-analysis-with-pandas-27ecbce2853
+Please follow along the notebook in this repo [**Tutorial.ipynb**](TUTORIAL LINK).
+
+For an interactive version, use our [Azure Notebooks library](https://notebooks.azure.com/kennli/libraries/vh-datascience-beginners) and click on **Tutorial.ipynb**.
 
 ### Helpful Links 
 
@@ -74,9 +76,4 @@ The main steps to actually doing something on Jupyter look something like this:
 2. **Make some graphs**. Matplotlib is a full visualization suite and can be complemented with `seaborns`. Feel free to use `plt.plot`, `plt.hist`, `plt.bar`, etc. 
 
 3. **Get some insights**. Think of 2-3 nontrivial questions you want answers. Work out the steps needed to be taken and extract answers from your data. Usually this will involve a lot of filtering, cleaning, plots, etc. In this stage, StackExchange and Google are your main consultants. 
-
-
-
-
-
 
