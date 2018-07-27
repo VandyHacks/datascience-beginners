@@ -55,7 +55,7 @@ Jupyter has 2 main modes: *Command* and *Edit*.
 # Part 2. Data 
 This section refers to another Notebook showcasing how some basic data handling is done. 
 
-Please follow along the notebook in this repo [**Tutorial.ipynb**](TUTORIAL LINK).
+Please follow along the notebook in this repo [**Tutorial.ipynb**](https://github.com/VandyHacks/datascience-beginners/blob/master/Tutorial.ipynb).
 
 For an interactive version, use our [Azure Notebooks library](https://notebooks.azure.com/kennli/libraries/vh-datascience-beginners) and click on **Tutorial.ipynb**.
 
