@@ -1,4 +1,4 @@
-# How to start Python data science 10 minutes
+# How to do Data Science in 10 minutes of Python
 *For the hackers at VandyHacks 2018*
 
 # Preface 
